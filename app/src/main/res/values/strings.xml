@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hotels</string>
+    <string name="title_hotels">Отели</string>
+    <string name="title_booked">Ваши бронирования</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_register">Регистрация</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_hotel">Выбор номера</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

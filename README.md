@@ -1,65 +1,78 @@
-# Hotel Booking App
+Этот репозиторий содержит код приложения для бронирования отелей.
 
-This repository contains the code for a Hotel Booking App.
+## Описание функциональности
 
-## Functionality Description
+Приложение предоставляет интерфейс для просмотра и управления бронированиями отелей. Ключевые особенности включают:
 
-The application provides interface for browsing and managing hotel bookings. Key features include:
+*   **Нижняя панель навигации:** Удобная навигация между основными разделами с помощью нижней панели навигации.
+*   **Мои бронирования:** Просмотр и управление существующими бронированиями отелей пользователя.
+*   **Поиск отелей:** Поиск отелей на основе города, даты заезда и даты выезда.
+*   **Профиль пользователя:** Аутентификация пользователя (вход/регистрация) и управление профилем.
 
-*   **Bottom Navigation Bar:** Easy navigation between main sections using a bottom navigation bar.
-*   **My Bookings:** View and manage user's existing hotel bookings.
-*   **Hotel Search:** Find hotels based on city, check-in, and check-out dates.
-*   **User Profile:** User authentication (login/registration) and profile management.
+### Навигация
 
-### Navigation
+Нижняя панель навигации обеспечивает доступ к трем основным разделам:
 
-The bottom navigation bar provides access to the three main sections:
+1.  **Мои бронирования**
+2.  **Поиск отелей**
+3.  **Профиль**
 
-1.  **My Bookings**
-2.  **Hotel Search**
-3.  **Profile**
+### 1. Мои бронирования
 
-### 1. My Bookings
+В этом разделе отображаются все бронирования отелей пользователя с использованием `RecyclerView`. Для каждого бронирования отображается:
 
-This section displays all of the user's hotel bookings using a `RecyclerView`. Each booking displays:
+*   Название отеля
+*   Дата заезда
+*   Дата выезда
+*   Номер комнаты
+*   Город
 
-*   Hotel Name
-*   Check-in Date
-*   Check-out Date
-*   Room Number
-*   City
+![image](https://github.com/user-attachments/assets/e926de74-7887-4091-8a1e-74e017c58651)
 
-**(Image 1: Screenshot of the My Bookings screen)**
+**(Изображение 1: Скриншот экрана "Мои бронирования")**
 
-### 2. Hotel Search
+### 2. Поиск отелей
 
-Allows the user to search for hotels based on city, check-in date, and check-out date.
+Позволяет пользователю искать отели на основе города, даты заезда и даты выезда.
 
-**(Image 2: Screenshot of the Hotel Search input screen)**
+![image](https://github.com/user-attachments/assets/a82a52d2-865d-4775-aad5-66c4c1350b37)
 
-The search results are displayed in a `RecyclerView` showing:
+**(Изображение 2: Скриншот экрана ввода данных для поиска отелей)**
 
-*   Hotel Image
-*   Hotel Name
-*   Price
+Результаты поиска отображаются в `RecyclerView`, показывая:
 
-**(Image 3: Screenshot of the Hotel Search results screen)**
+*   Изображение отеля
+*   Название отеля
+*   Цена
 
-Clicking the "Book" button navigates to a screen with detailed hotel information and room selection.
+![image](https://github.com/user-attachments/assets/4a91c498-abd5-4add-9199-f1bc6a92f835)
 
-**(Image 4: Screenshot of the Room Selection screen)**
+**(Изображение 3: Скриншот экрана результатов поиска отелей)**
 
-### 3. Profile
+Нажатие кнопки "Забронировать" переводит на экран с подробной информацией об отеле и выбором номера.
 
-This section handles user authentication and profile management.
+![image](https://github.com/user-attachments/assets/0409222d-58d7-480a-95fd-69261e9b1a77)
 
-*   **Login/Registration:** If the user is not logged in, a login form is displayed.
-*   **Registration:** A registration form allows new users to create an account by providing a username, email, and password.
+**(Изображение 4: Скриншот экрана выбора номера)**
 
-**(Image 5: Screenshot of the Login screen)**
+### 3. Профиль
 
-**(Image 6: Screenshot of the Registration screen)**
+Этот раздел отвечает за аутентификацию пользователя и управление профилем.
 
-*   **Profile Information:** After logging in, the user sees their profile information and a "Logout" button.
+*   **Вход/Регистрация:** Если пользователь не вошел в систему, отображается форма входа.
+*   **Регистрация:** Форма регистрации позволяет новым пользователям создать учетную запись, предоставив имя пользователя, адрес электронной почты и пароль.
 
-**(Image 7: Screenshot of the User Profile screen)**
+![image](https://github.com/user-attachments/assets/cec7951e-4386-4491-ba9a-2b2a93dc1a41)
+
+**(Изображение 5: Скриншот экрана входа)**
+
+![image](https://github.com/user-attachments/assets/d725d9f6-8d60-4a47-b497-d8dce5703bce)
+
+**(Изображение 6: Скриншот экрана регистрации)**
+
+*   **Информация о профиле:** После входа в систему пользователь видит информацию о своем профиле и кнопку "Выйти".
+
+![image](https://github.com/user-attachments/assets/cd218892-0676-4d65-b11e-52695a648ced)
+
+**(Изображение 7: Скриншот экрана профиля пользователя)**
+
